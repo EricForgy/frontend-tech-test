@@ -1,0 +1,7 @@
+type Repository {
+  stars: Int
+}
+
+type Query {
+  repository(username: String!, repository: String!): Repository
+}
